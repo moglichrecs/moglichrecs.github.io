@@ -1,2 +1,0 @@
-# moglichrecs.github.io
-website
