@@ -225,3 +225,8 @@ h3 {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+a {
+	border-bottom: 1px solid black;
+	color: black;
+}
