@@ -174,4 +174,23 @@ img#releaseartwork {
 	body {
 		margin: 0;
 	}
+	#imageoverlay {
+		display: none;
+	}
+}
+
+#imageoverlay {
+	width: 400px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.6);
+	background-image: url(../l/external.png);
+	transition: 0.4s;
+	opacity: 0.0;
+	position: absolute;
+}
+
+#imageoverlay:hover {
+	opacity: 1.0;
+	background-image: url(../l/external.png);
+	transition: 0.4s;
 }
