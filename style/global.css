@@ -381,6 +381,13 @@ button:hover {
 	font-size: 1.3em;
 }
 
+#selectionbar {
+	width: 860px;
+	margin-top: -53px;
+	text-align: right;
+	position: absolute;
+}
+
 @media screen and (max-width: 860px) {
 	#c {
 		width: 90vw;
