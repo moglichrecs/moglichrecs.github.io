@@ -381,7 +381,7 @@ button:hover {
 	font-size: 1.3em;
 }
 
-#selectionbar {
+.selectionbar {
 	width: 860px;
 	margin-top: -53px;
 	text-align: right;
@@ -407,16 +407,20 @@ button:hover {
 		width: 100%;
 		margin: 0px;
 		top: 80px;
+		border-bottom: 1px solid black;
+		border-top: 1px solid black;
+		padding-top: 2px;
+		padding-bottom: 2px;
 		background-color: white;
 	}
 	#headerlinks {
 		width: 25%;
-	    border-bottom: 1px solid black;
 	}
 	img#header {
-		margin-left: 25%;
-		margin-right: 25%;
-		left: 83.83px;
+		left: 0;
+		margin: 0 auto;
+		top: 10px;
+		right: 0;
 	}
 	h1.feat {
 		margin-top: 300px;
@@ -435,5 +439,12 @@ button:hover {
 	}
 	.featuredreleaseoverlay {
 		height: 100vh;
+	}
+	.selectionbar {
+		margin-right: 5%;
+		margin-top: -53px;
+		right: 0;
+		width: 100px;
+		position: absolute;
 	}
 }
