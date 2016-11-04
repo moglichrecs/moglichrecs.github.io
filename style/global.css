@@ -46,14 +46,10 @@ body {
 	width: 100vw;
 	height: 800px;
 	background-color: #555;
-	background-position: bottom center;
+	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
-	animation-name: releasehero;
-	animation-duration: 50s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
 	margin-top: 80px;
 }
 
@@ -111,6 +107,9 @@ h3#artisthero::selection {
 header {
 	background-color: white;
 	width: 100%;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 	height: 80px;
 	position: fixed;
 	top: 0;
@@ -126,12 +125,6 @@ img#header {
 	left: 0;
 }
 
-@keyframes releasehero {
-	0% {background-position: bottom center;}
-	50% {background-position: top center;}
-	100% {background-position: bottom center;}
-}
-
 #c {
 	width: 900px;
 	margin-left: auto;
@@ -142,9 +135,9 @@ img#header {
 	width: 860px;
 	margin-top: 120px;
 	border-radius: 5px;
-	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
-	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 	margin-left: auto;
 	background-color: white;
 	padding: 20px;
@@ -169,10 +162,8 @@ img#header {
 }
 
 #sidebreak {
-	width: 11px;
+	width: 40px;
 	height: 158px;
-	margin-left: -5px;
-	margin-right: -5px;
 	display: inline-block;
 }
 
@@ -397,11 +388,54 @@ button:hover {
 	position: absolute;
 }
 
+.artistimg {
+	width: 820px;
+	height: 155px;
+	margin: 20px;
+	margin-bottom: 0;
+	background-size: cover;
+	background-image: url(../img/artist/default.png);
+}
+
+.artistimg-name {
+	padding: 5px;
+	color: white;
+	margin: 20px;
+	margin-top: 0;
+	background-color: black;
+	width: 810px;
+	text-align: center;
+}
+
 @media screen and (max-width: 860px) {
 	#c {
 		width: 90vw;
 		left: 0;
 		right: 0;
+	}
+	.artistimg {
+		width: 90vw;
+		height: 155px;
+		margin: 0;
+		margin-right: 20px;
+		margin-bottom: 0;
+		background-size: cover;
+		background-position: center;
+		background-image: url(../img/artist/default.png);
+	}
+
+	.artistimg-name {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-right: 0;
+		padding-left: 0;
+		color: white;
+		margin-bottom: 20px;
+		margin-left: 0px;
+		margin-right: 20px;
+		background-color: black;
+		width: 90vw;
+		text-align: center;
 	}
 	#c-cont {
 		width: 90vw;
