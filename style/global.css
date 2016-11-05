@@ -141,6 +141,7 @@ img#header {
 	margin-left: auto;
 	background-color: white;
 	padding: 20px;
+	margin-bottom: 40px;
 	margin-right: auto;
 }
 
@@ -223,6 +224,7 @@ img#releasepanel-img {
 h3 {
 	font-size: 1.5em;
 	margin-bottom: 5px;
+	margin-top: 5px;
 }
 
 #herolink {
@@ -407,6 +409,40 @@ button:hover {
 	text-align: center;
 }
 
+#artistheader {
+	margin-top: 80px;
+	width: 100vw;
+	height: 310px;
+	margin-bottom: -80px;
+	background-size: cover;
+	background-position: center;
+}
+
+#artistheader-overlay {
+	position: absolute;
+	width: 100vw;
+	height: 310px;
+	background-size: cover;
+	background-position: center;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.artistheader-title-cont {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#artistheader-title {
+	padding: 5px;
+	z-index: 9;
+	font-size: 1.5em;
+	margin-top: 20px;
+	position: absolute;
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+}
+
 @media screen and (max-width: 860px) {
 	#c {
 		width: 90vw;
@@ -505,5 +541,38 @@ button:hover {
 		right: 0;
 		width: 100px;
 		position: absolute;
+	}
+	#artistheader {
+		margin-top: 160px;
+		width: 100vw;
+		height: 310px;
+		margin-bottom: -180px;
+		background-size: cover;
+		background-position: center;
+	}	
+
+	#artistheader-overlay {
+		position: absolute;
+		width: 100vw;
+		height: 310px;
+		background-color: rgba(0,0,0,0.6);
+	}
+
+	.artistheader-title-cont {
+		width: 100vw;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		margin-left: 15px;
+	}
+
+	#artistheader-title {
+		padding: 5px;
+		z-index: 9;
+		font-size: 1.5em;
+		margin-top: 20px;
+		position: absolute;
+		background-color: rgba(0,0,0,0.8);
+		color: white;
 	}
 }
