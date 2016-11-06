@@ -399,6 +399,7 @@ button:hover {
 	margin: 20px;
 	margin-bottom: 0;
 	background-size: cover;
+	background-position: fixed;
 	background-image: url(../img/artist/default.png);
 }
 
@@ -457,6 +458,7 @@ button:hover {
 		height: 155px;
 		margin: 0;
 		margin-right: 20px;
+		background-position: fixed;
 		margin-bottom: 0;
 		background-size: cover;
 		background-position: center;
