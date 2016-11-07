@@ -364,8 +364,8 @@ button {
 	border: none;
 	background: linear-gradient(to left, white 50%, black 50%);
 	transition: 0.4s;
-    background-size: 205% 100%;
-    background-position: right bottom;
+    	background-size: 205% 100%;
+   	background-position: right bottom;
 	border: 5px solid black;
 	font-family: 'Montserrat', Sans-Serif;
 	padding: 10px;
@@ -421,6 +421,7 @@ button:hover {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: auto 310px;
+	background-color: #dbd6e8;
 }
 
 #artistheader-overlay {
@@ -557,6 +558,7 @@ button:hover {
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: auto 310px; //* You don't want to know how long this took me to figure out... *//
+		background-color: #dbd6e8;
 	}	
 
 	#artistheader-overlay {
