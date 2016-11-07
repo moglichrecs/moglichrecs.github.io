@@ -487,7 +487,7 @@ button:hover {
 	footer {
 		width: 100%;
 		height: 80px;
-		background-color: #111;
+		border-top: 1px solid #ccc;
 		display: inline;
 		position: absolute;
 		left: 0;
