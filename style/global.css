@@ -399,7 +399,6 @@ button:hover {
 	margin: 20px;
 	margin-bottom: 0;
 	background-size: cover;
-	background-position: fixed;
 	background-image: url(../img/artist/default.png);
 }
 
@@ -419,7 +418,7 @@ button:hover {
 	height: 310px;
 	margin-bottom: -80px;
 	background-size: cover;
-	background-position: center;
+	background-position: fixed;
 }
 
 #artistheader-overlay {
@@ -553,7 +552,7 @@ button:hover {
 		height: 310px;
 		margin-bottom: -180px;
 		background-size: cover;
-		background-position: center;
+		background-position: fixed;
 	}	
 
 	#artistheader-overlay {
