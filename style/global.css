@@ -417,10 +417,10 @@ button:hover {
 	width: 100vw;
 	height: 310px;
 	margin-bottom: -80px;
-	background-size: cover;
-	background-position: center;
+	background-position: center 80px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-size: auto 310px;
 }
 
 #artistheader-overlay {
@@ -553,10 +553,10 @@ button:hover {
 		width: 100vw;
 		height: 310px;
 		margin-bottom: -180px;
-		background-size: cover;
-		background-position: center;
+		background-position: center 160px;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
+		background-size: auto 310px; //* You don't want to know how long this took me to figure out... *//
 	}	
 
 	#artistheader-overlay {
